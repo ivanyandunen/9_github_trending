@@ -15,6 +15,7 @@ Then run
 C:\9_github_trending>python github_trending.py
 ```
 
+It is recommended to use [virtualenv/venv](https://devman.org/encyclopedia/pip/pip_virtualenv/) for better isolation.
 
 # Project Goals
 
