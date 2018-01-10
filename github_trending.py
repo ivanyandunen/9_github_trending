@@ -3,8 +3,9 @@ import datetime
 
 
 def get_trending_repositories(top_size):
+    week = 7
     url = 'https://api.github.com/search/repositories'
-    search_date = datetime.date.today() - datetime.timedelta(7)
+    search_date = datetime.date.today() - datetime.timedelta(week)
     params = {
         'q': 'created:>={}'.format(search_date),
         'sort': 'stargazers_count',
